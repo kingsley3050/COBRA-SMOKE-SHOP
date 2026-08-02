@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cobra Smoke Shop and vape</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<a href="https://wa.me/+1(810)4013667" target="_blank" rel="noopener" class="logo-link">
+    <img src="images/whatsapp-logo.jpeg" alt="WhatsApp Logo" class="logo">
+</a>
+
+<h1>Cobra Smoke Shop and vape</h1>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="shop.html">Shop</a>
+
+<a href="cart.html">🛒 Cart</a>
+
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+<div class="search">
+
+<input placeholder="Search products">
+
+</div>
+
+
+
+<h2 id="welcome"></h2>
+
+
+
+<section class="products">
+
+
+<div class="card">
+
+<img src="images/muha-meds-2.jpeg" alt="Muha Meds2">
+<img src="images/muha-meds-3.jpeg" alt="Muha Meds3">
+<img src="images/muha-meds-4.jpeg" alt="Muha Meds4">
+<img src="images/muha-meds-5.jpeg" alt="Muha Meds5">
+<img src="images/muha-meds-6.jpeg" alt="Muha Meds6">
+
+
+<h3>muha meds</h3>
+
+<h2>$30</h2>
+
+<p>
+Explore our premium Muha Meds collection, crafted for quality, consistency, and a smooth experience. Shop authentic products with confidence and enjoy fast, reliable service. Your trusted source for top-tier vaping essentials.”
+</p>
+
+<button onclick="readyfordelivery('muha meds',30)">
+ready for delivery
+</button>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="images/vapes-1.jpeg" alt="Geekbar 1">
+<img src="images/vapes-2.jpeg" alt="Geekbar 2">
+<img src="images/vapes-3.jpeg" alt="Geekbar 3">
+<img src="images/vapes-4.jpeg" alt="Geekbar 4">
+
+<h3>geek bar</h3>
+
+<h2>$30</h2>
+
+<p>
+Discover the latest Geek Bar vapes, known for bold flavors, smooth performance, and long-lasting satisfaction.  
+Designed for convenience with premium quality and consistent flavor in every puff.  
+Shop authentic Geek Bar products and enjoy a reliable vaping experience every time.
+</p>
+
+<button onclick="readyfordelivery('geek bar',30)">
+ready for delivery 
+</button>
+
+</div>
+
+
+
+
+<div class="card">
+<img src="images/WhatsApp Image 2026-08-01 at 19.02.54.jpeg" alt="boutique 2g images">
+<img src="images/WhatsApp Image 2026-08-01 at 19.03.24.jpeg" alt="boutique 2g images">
+<img src="images/WhatsApp Image 2026-08-01 at 19.04.30.jpeg" alt="boutique 2g images">
+
+<h3> boutique 2g</h3>
+
+<h2>$30</h2>
+
+<p>
+Experience the premium performance of Boutiq vapes, crafted for smooth draws and rich, flavorful vapor.  
+Designed with sleek style, long-lasting quality, and exceptional consistency in every puff.  
+Shop authentic Boutiq products and elevate your vaping experience with confidence.
+</p>
+
+<button onclick="readyfordelivery('boutique 2g',30)">
+ready for delivery
+</button>
+
+</div>
+<div class="card">
+<img src="images/WhatsApp Image 2026-08-01 at 19.47.34.jpeg" alt="lost mary images">
+<img src="images/WhatsApp Image 2026-08-01 at 19.47.35.jpeg" alt="lost mary images">
+<img src="images/WhatsApp Image 2026-08-01 at 19.47.40.jpeg" alt="lost mary images">
+<img src="images/WhatsApp Image 2026-08-01 at 19.47.41.jpeg" alt="lost mary images">
+
+<h3>lost mary</h3>
+
+<h2>$35</h2>
+
+<p>
+Discover the latest lost Mary vapes, known for bold flavors, smooth performance, and long-lasting satisfaction.  
+Designed for convenience with premium quality and consistent flavor in every puff.  
+Shop authentic LOST MARY  products and enjoy a reliable vaping experience every time.
+</p>
+
+
+<button onclick="readyfordelivery('lost mary',35)">
+ready for delivery
+</button>
+</button>
+
+</div>
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+<footer id="contact">
+
+<h3>Contact Cobra Smoke Shop</h3>
+
+
+<p>
+💬 WhatsApp:
+<a href="https://wa.me/+1(810)4013667">
+Chat With Us +1(810)4013667
+
+</a>
+</p>
+
+
+
+
+
+
+<p>
+🎵 facebook:
+<a href="cobra smoke shop & vape store">
+cobra smoke shop & vape store
+</a>
+</p>
+
+
+<p>
+✉️ Email:
+<a href="Jamesmorganne543@gmail.com">
+your.Jamesmorganne543@gmail.com
+</a>
+</p>
+
+
+<p>
+© 2026 Cobra Smoke Shop
+</p>
+
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+<script>
+
+let user = localStorage.getItem("username");
+
+if(user){
+
+document.getElementById("welcome").innerHTML =
+"Welcome " + user + " 🐍";
+
+}
+
+</script>
+
+
+</body>
+
+</html>
